@@ -38,8 +38,8 @@ using a linearized reduced quaternion model, we can derive an analytical formula
 
 The linear system is given as 
 
-$/x=A*x+B*u$ 
-$y=C*x$ 
+x=A*x+B*u
+y=C*x 
 
 The feedback matrix for the LQR to minimize the objective function O
 
