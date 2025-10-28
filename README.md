@@ -38,11 +38,13 @@ using a linearized reduced quaternion model, we can derive an analytical formula
 
 The linear system is given as 
 
-x=A*x+B*u
+x=A*x+B*u,
 y=C*x 
 
 The feedback matrix for the LQR to minimize the objective function O
 
-$$/O=1/2*\int_0^\infty (x^TQx)+(u^T*R*u)\,dt/$$
+$$
+O = \tfrac{1}{2} \int_0^{\infty} \left( x^T Q x + u^T R u \right)\, dt
+$$
 
 <img src="images\control.png" width="300" />
