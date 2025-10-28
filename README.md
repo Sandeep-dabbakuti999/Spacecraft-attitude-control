@@ -28,7 +28,9 @@ The kinematic equation of spacecraft gives out the resulting quaternion.
 
 ${dq_-\over dt=q(t)x(0.5*w(t))}$
 
-<img src="Kinematics&Din.png" width="300" />
+<div align="center">
+<img src="Images/Kinematics&Din.png" width="300" />
+</div>
 
 using a linearized reduced quaternion model, we can derive an analytical formula for LQR optimal control that is explicitly related to the cost matrices Q and R. The LQR feedback controller globally stabilizes the original nonlinear spacecraft.
 
@@ -46,5 +48,7 @@ The feedback matrix for the LQR to minimize the objective function O
 $$
 O = \tfrac{1}{2} \int_0^{\infty} \left( x^T Q x + u^T R u \right)\, dt
 $$
+<div align="center">
+<img src="Images/TOT.png" width="300" />
+</div>
 
-<img src="TOT.png" width="300" />
