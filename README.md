@@ -1,8 +1,9 @@
 # Quaternions
 
 A **quaternion** represents a rotation. In scalar–vector form:
-
-$$/\vec{q}=q_o+q_1*i+q_2*j+q_3*k/$$
+$$
+\vec{q} = q_0 + q_1 i + q_2 j + q_3 k
+$$
 ---
 
 ## Equation of Motion of a Spacecraft
