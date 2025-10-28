@@ -2,11 +2,9 @@
 
 A **quaternion** represents a rotation. In scalar–vector form:
 
-$
-q = q0 +q1*i +q2*j +q_3*k
-$
 
----
+q = q0 +q1*i +q2*j +q_3*k
+
 
 ## Equation of Motion of a Spacecraft
 
@@ -40,8 +38,8 @@ using a linearized reduced quaternion model, we can derive an analytical formula
 
 The linear system is given as 
 
-$$/x_.=A*x+B*u/$$ 
-$$/y=C*x/$$ 
+$/x=A*x+B*u$ 
+$y=C*x$ 
 
 The feedback matrix for the LQR to minimize the objective function O
 
