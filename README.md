@@ -2,7 +2,7 @@
 
 A **quaternion** represents a rotation. In scalar–vector form:
 
-$\vec{q}=q_o+q_1*i+q_2*j+q_3*k$
+$$/\vec{q}=q_o+q_1*i+q_2*j+q_3*k/$$
 ---
 
 ## Equation of Motion of a Spacecraft
@@ -29,16 +29,19 @@ ${dq_-\over dt=q(t)x(0.5*w(t))}$
 
 <img src="images/Dynamics.png" width="300" />
 
-Using a linearized reduced quaternion model, we can derive an analytical formula for LQR optimal control that is explicitly related to the cost matrices Q and R. The LQR feedback con -troller globally stabilizes the original nonlinear spacecraft.
+using a linearized reduced quaternion model, we can derive an analytical formula for LQR optimal control that is explicitly related to the cost matrices Q and R. The LQR feedback controller globally stabilizes the original nonlinear spacecraft.
+
 ---
 
 ## Linearized LQR Design
 
 The linear system is given as 
-$x_.=A*x+B*u$ $y=C*x$ 
+
+$$/x_.=A*x+B*u/$$ 
+$$/y=C*x/$$ 
 
 The feedback matrix for the LQR to minimize the objective function O
 
-$O=1/2*\int_0^\infty (x^TQx)+(u^T*R*u)\,dt$
+$$/O=1/2*\int_0^\infty (x^TQx)+(u^T*R*u)\,dt/$$
 
 <img src="images\control.png" width="300" />
