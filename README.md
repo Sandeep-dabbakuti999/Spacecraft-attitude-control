@@ -3,7 +3,7 @@
 A **quaternion** represents a rotation. In scalar–vector form:
 
 $
-\vec{q} = q_0 + q_1*i + q_2*j + q_3*k
+q = q0 +q1*i +q2*j +q_3*k
 $
 
 ---
