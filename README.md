@@ -52,3 +52,11 @@ $$
 <img src="Images/TOT.PNG" width="300" />
 </div>
 
+##Results
+The following are the results of oftmised quaternion reaching its desired attitude and final angular rates to zero with torque distubance.
+<div align="center">
+<img src="Quaternion.PNG" width="300" />
+</div>
+<div align="center">
+<img src="AngularRates.PNG" width="300" />
+</div>
