@@ -53,10 +53,16 @@ $$
 </div>
 
 ## Results
-The following are the results of oftmised quaternion reaching its desired attitude and final angular rates to zero with torque distubance.
+The following are the results of optmised quaternion reaching its desired attitude and final angular rates to zero with torque distubance.
 <div align="center">
 <img src="Quaternion.png" width="600" />
 </div>
+
 <div align="center">
 <img src="AngularRates.png" width="600" />
 </div>
+
+## Extended Kalman Filters
+The Extended Klaman Filters will reduce the uncertainities in measured and estimated values by removing the white noise the following are the state space eqation of a spacecreaft.
+
+
