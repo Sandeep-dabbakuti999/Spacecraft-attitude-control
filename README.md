@@ -49,7 +49,7 @@ $$
 O = \tfrac{1}{2} \int_0^{\infty} \left( x^T Q x + u^T R u \right)\, dt
 $$
 <div align="center">
-<img src="Images/TOT.PNG" width="600" />
+<img src="Images/TOT.PNG" width="900" />
 </div>
 
 ##Results
