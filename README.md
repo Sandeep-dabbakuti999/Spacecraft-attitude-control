@@ -55,11 +55,11 @@ $$
 ## Results
 The following are the results of optmised quaternion reaching its desired attitude and final angular rates to zero with torque distubance.
 <div align="center">
-<img src="Quaternion.png" width="600" />
+<img src="Images/Quaternion.png" width="600" />
 </div>
 
 <div align="center">
-<img src="AngularRates.png" width="600" />
+<img src="Images/AngularRates.png" width="600" />
 </div>
 
 ## Extended Kalman Filters
